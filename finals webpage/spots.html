@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourist Spots - MY MANILA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/Manila.ico" type="image/x-icon">
+  </head>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    
+    <!-- Header/Navbar -->
+    <header class="bg-white px-4 py-3 shadow-sm">
+      <div class="max-w-7xl mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between">
+    <!-- Navbar Logo and Title -->
+<a href="#" class="flex items-center justify-center sm:justify-start space-x-2">
+  <img src="images/Manila.ico" alt="MY MANILA Logo" class="h-8 w-8 object-contain">
+  <h1 class="text-2xl sm:text-2xl font-bold text-black whitespace-nowrap">MY MANILA</h1>
+</a>
+    <nav>
+      <ul class="mt-2 sm:mt-0 flex flex-col sm:flex-row items-center sm:space-x-6 space-y-2 sm:space-y-0 text-sm sm:text-base font-bold font-medium text-black">
+        <li><a href="index.html" class="hover:text-blue-600 transition">Home</a></li>
+        <li><a href="spots.html" class="hover:text-blue-600 transition">Tourist Spots</a></li>
+        <li><a href="time.html" class="hover:text-blue-600">Best Time/Day</a></li>
+          <li><a href="hidden.html" class="hover:text-blue-600">Hidden Gems</a></li>
+        <li><a href="budget.html" class="hover:text-blue-600 transition">Budget Guide</a></li>
+        <li><a href="contact.html" class="hover:text-blue-600 transition">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+   <!-- Hero Section -->
+<section class="pt-36 pb-24 px-6 text-center relative" style="background-image: url('images/tourie.jpg'); background-size: cover; background-position: center;">
+  <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+  <div class="max-w-4xl mx-auto relative z-10">
+    <h2 class="text-5xl sm:text-6xl font-extrabold text-white mb-6 drop-shadow-2xl tracking-tight">
+      Explore Manila's Tourist Spots
+    </h2>
+    <p class="text-2xl sm:text-3xl italic text-white mb-8 drop-shadow-md">
+      Discover iconic landmarks, vibrant culture, and hidden gems waiting for you.
+    </p>
+  </div>
+</section>
+
+  
+
+    <!-- Tourist Spots Section -->
+<section class="py-12 px-6 bg-white">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold text-gray-800 mb-8">Must-See Tourist Spots</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+  
+        <!-- Card: Intramuros -->
+        <div class="bg-gray-100 p-5 rounded-xl shadow-lg">
+          <img src="spotsimg/intram.jpg" alt="Intramuros" class="w-full h-48 object-cover rounded-t-xl">
+          <h4 class="text-xl font-bold text-gray-800 mt-4">🏰 Intramuros</h4>
+          <p class="text-gray-700 text-sm mb-2">Explore Manila's historic walled city, rich in Spanish colonial history.</p>
+          <p class="text-yellow-500 text-sm mb-4">★★★★☆ (4.5)</p>
+          <div class="bg-yellow-50 text-yellow-800 text-sm p-3 rounded-lg mt-3 border border-yellow-200">
+            📝 <strong>Local Tip:</strong> Visit at sunset for beautiful golden-hour photos and cool breezes!
+          </div>
+          <blockquote class="italic text-sm text-gray-600 mt-3 border-l-4 pl-3 border-gray-300">
+            “Walking through Intramuros feels like stepping back in time. A must-see!”
+          </blockquote>
+        </div>
+  
+        <!-- Rizal Park -->
+        <div class="bg-gray-100 p-5 rounded-xl shadow-lg">
+          <img src="spotsimg/rizal.jpg" alt="Rizal Park" class="w-full h-48 object-cover rounded-t-xl">
+          <h4 class="text-xl font-bold text-gray-800 mt-4">🌳 Rizal Park</h4>
+          <p class="text-gray-700 text-sm mb-2">Visit the famous park dedicated to the national hero, Jose Rizal.</p>
+          <p class="text-yellow-500 text-sm mb-4">★★★★☆ (4.3)</p>
+          <div class="bg-yellow-50 text-yellow-800 text-sm p-3 rounded-lg mt-3 border border-yellow-200">
+            📝 <strong>Local Tip:</strong> Visit early in the morning to enjoy peaceful walks and catch the flag-raising ceremony.
+          </div>
+          <blockquote class="italic text-sm text-gray-600 mt-3 border-l-4 pl-3 border-gray-300">
+            “A relaxing green space in the heart of Manila. Great for picnics and reflecting on history.” – Liza M.
+          </blockquote>
+        </div>
+  
+        <!-- Manila Ocean Park -->
+        <div class="bg-gray-100 p-5 rounded-xl shadow-lg">
+          <img src="spotsimg/manoce.jpg" alt="Manila Ocean Park" class="w-full h-48 object-cover rounded-t-xl">
+          <h4 class="text-xl font-bold text-gray-800 mt-4">🐠 Manila Ocean Park</h4>
+          <p class="text-gray-700 text-sm mb-2">Dive into an aquatic adventure at Manila’s largest oceanarium.</p>
+          <p class="text-yellow-500 text-sm mb-4">★★★★☆ (4.4)</p>
+          <div class="bg-yellow-50 text-yellow-800 text-sm p-3 rounded-lg mt-3 border border-yellow-200">
+            📝 <strong>Local Tip:</strong> Weekday mornings are the best time to avoid crowds, especially for the Sea Lion Show.
+          </div>
+          <blockquote class="italic text-sm text-gray-600 mt-3 border-l-4 pl-3 border-gray-300">
+            “My kids loved the jellyfish display and the ocean tunnel – so magical!” – Ron V.
+          </blockquote>
+        </div>
+  
+        <!-- San Agustin Church -->
+        <div class="bg-gray-100 p-5 rounded-xl shadow-lg">
+          <img src="spotsimg/church.jpg" alt="San Agustin Church" class="w-full h-48 object-cover rounded-t-xl">
+          <h4 class="text-xl font-bold text-gray-800 mt-4">⛪ San Agustin Church</h4>
+          <p class="text-gray-700 text-sm mb-2">A UNESCO World Heritage Site and one of the oldest churches in the Philippines.</p>
+          <p class="text-yellow-500 text-sm mb-4">★★★★★ (4.8)</p>
+          <div class="bg-yellow-50 text-yellow-800 text-sm p-3 rounded-lg mt-3 border border-yellow-200">
+            📝 <strong>Local Tip:</strong> Join a free guided tour for deeper insight into the church's centuries-old history.
+          </div>
+          <blockquote class="italic text-sm text-gray-600 mt-3 border-l-4 pl-3 border-gray-300">
+            “The architecture is breathtaking. It's like stepping into the past.” – Anna C.
+          </blockquote>
+        </div>
+  
+        <!-- Cultural Center -->
+        <div class="bg-gray-100 p-5 rounded-xl shadow-lg">
+          <img src="spotsimg/cultural.jpg" alt="Cultural Center of the Philippines" class="w-full h-48 object-cover rounded-t-xl">
+          <h4 class="text-xl font-bold text-gray-800 mt-4">🎭 Cultural Center of the Philippines</h4>
+          <p class="text-gray-700 text-sm mb-2">Home to performing arts, galleries, and Filipino creativity.</p>
+          <p class="text-yellow-500 text-sm mb-4">★★★★☆ (4.6)</p>
+          <div class="bg-yellow-50 text-yellow-800 text-sm p-3 rounded-lg mt-3 border border-yellow-200">
+            📝 <strong>Local Tip:</strong> Check their official site for free exhibits or student-discounted shows.
+          </div>
+          <blockquote class="italic text-sm text-gray-600 mt-3 border-l-4 pl-3 border-gray-300">
+            “A haven for art lovers! The shows and galleries are world-class.” – Marc D.
+          </blockquote>
+        </div>
+  
+        <!-- National Museum -->
+        <div class="bg-gray-100 p-5 rounded-xl shadow-lg">
+          <img src="spotsimg/natmu.jpg" alt="National Museum of Fine Arts" class="w-full h-48 object-cover rounded-t-xl">
+          <h4 class="text-xl font-bold text-gray-800 mt-4">🖼️ National Museum of Fine Arts</h4>
+          <p class="text-gray-700 text-sm mb-2">Admire masterpieces of Filipino art and culture, including works by Juan Luna.</p>
+          <p class="text-yellow-500 text-sm mb-4">★★★★☆ (4.7)</p>
+          <div class="bg-yellow-50 text-yellow-800 text-sm p-3 rounded-lg mt-3 border border-yellow-200">
+            📝 <strong>Local Tip:</strong> Entry is free! Plan your visit around mid-morning to avoid lines.
+          </div>
+          <blockquote class="italic text-sm text-gray-600 mt-3 border-l-4 pl-3 border-gray-300">
+            “Seeing Spoliarium in person gave me chills. Proud of our heritage.” – Bea T.
+          </blockquote>
+        </div>
+  <!-- Binondo -->
+<div class="bg-gray-100 p-5 rounded-xl shadow-lg">
+    <img src="spotsimg/binondo.jpg" alt="Binondo" class="w-full h-48 object-cover rounded-t-xl">
+    <h4 class="text-xl font-bold text-gray-800 mt-4">🍜 Binondo</h4>
+    <p class="text-gray-700 text-sm mb-2">The world’s oldest Chinatown, offering rich history and amazing Chinese-Filipino food.</p>
+    <p class="text-yellow-500 text-sm mb-4">★★★★☆ (4.6)</p>
+    <div class="bg-yellow-50 text-yellow-800 text-sm p-3 rounded-lg mt-3 border border-yellow-200">
+      📝 <strong>Local Tip:</strong> Don’t miss the dumplings at Dong Bei!
+    </div>
+    <blockquote class="italic text-sm text-gray-600 mt-3 border-l-4 pl-3 border-gray-300">
+      “A foodie’s paradise! Every alley has a hidden gem.” – Carla M.
+    </blockquote>
+  </div>
+  
+  <!-- Paco Park -->
+  <div class="bg-gray-100 p-5 rounded-xl shadow-lg">
+    <img src="spotsimg/paco.jpg" alt="Paco Park" class="w-full h-48 object-cover rounded-t-xl">
+    <h4 class="text-xl font-bold text-gray-800 mt-4">🌸 Paco Park</h4>
+    <p class="text-gray-700 text-sm mb-2">A peaceful circular park that once served as a cemetery during the Spanish era.</p>
+    <p class="text-yellow-500 text-sm mb-4">★★★★☆ (4.4)</p>
+    <div class="bg-yellow-50 text-yellow-800 text-sm p-3 rounded-lg mt-3 border border-yellow-200">
+      📝 <strong>Local Tip:</strong> Go during late afternoon to catch free concerts!
+    </div>
+    <blockquote class="italic text-sm text-gray-600 mt-3 border-l-4 pl-3 border-gray-300">
+      “Quiet, clean, and beautiful—perfect for a slow walk.” – Jess A.
+    </blockquote>
+  </div>
+  
+  <!-- Quiapo Church -->
+  <div class="bg-gray-100 p-5 rounded-xl shadow-lg">
+    <img src="spotsimg/quiapo.jpg" alt="Quiapo Church" class="w-full h-48 object-cover rounded-t-xl">
+    <h4 class="text-xl font-bold text-gray-800 mt-4">🙏 Quiapo Church</h4>
+    <p class="text-gray-700 text-sm mb-2">Famous for the Black Nazarene and its deeply rooted Filipino Catholic faith.</p>
+    <p class="text-yellow-500 text-sm mb-4">★★★★☆ (4.5)</p>
+    <div class="bg-yellow-50 text-yellow-800 text-sm p-3 rounded-lg mt-3 border border-yellow-200">
+      📝 <strong>Local Tip:</strong> Visit early Friday morning to avoid the crowds.
+    </div>
+    <blockquote class="italic text-sm text-gray-600 mt-3 border-l-4 pl-3 border-gray-300">
+      “Spiritual and intense. You’ll feel the energy of devotion.” – Leah G.
+    </blockquote>
+  </div>
+  
+  <!-- Star City -->
+  <div class="bg-gray-100 p-5 rounded-xl shadow-lg">
+    <img src="spotsimg/star.jpg" alt="Star City" class="w-full h-48 object-cover rounded-t-xl">
+    <h4 class="text-xl font-bold text-gray-800 mt-4">🎡 Star City</h4>
+    <p class="text-gray-700 text-sm mb-2">A classic amusement park offering thrilling rides and family-friendly fun.</p>
+    <p class="text-yellow-500 text-sm mb-4">★★★☆☆ (4.2)</p>
+    <div class="bg-yellow-50 text-yellow-800 text-sm p-3 rounded-lg mt-3 border border-yellow-200">
+      📝 <strong>Local Tip:</strong> Nighttime visits offer cooler weather and vibrant lights!
+    </div>
+    <blockquote class="italic text-sm text-gray-600 mt-3 border-l-4 pl-3 border-gray-300">
+      “Nostalgic fun for all ages. The Ferris wheel at night is a vibe!” – Dave R.
+    </blockquote>
+  </div>
+  
+  <!-- Arroceros Forest Park -->
+  <div class="bg-gray-100 p-5 rounded-xl shadow-lg">
+    <img src="spotsimg/forest.jpg" alt="Arroceros Forest Park" class="w-full h-48 object-cover rounded-t-xl">
+    <h4 class="text-xl font-bold text-gray-800 mt-4">🌿 Arroceros Forest Park</h4>
+    <p class="text-gray-700 text-sm mb-2">A lush green sanctuary in the city, perfect for nature lovers and quiet walks.</p>
+    <p class="text-yellow-500 text-sm mb-4">★★★★☆ (4.5)</p>
+    <div class="bg-yellow-50 text-yellow-800 text-sm p-3 rounded-lg mt-3 border border-yellow-200">
+      📝 <strong>Local Tip:</strong> Bring water and wear comfy shoes for exploring trails!
+    </div>
+    <blockquote class="italic text-sm text-gray-600 mt-3 border-l-4 pl-3 border-gray-300">
+      “Didn’t expect this kind of nature escape right in the city.” – Mia T.
+    </blockquote>
+  </div>
+  
+  <!-- SM Mall of Asia -->
+<div class="bg-gray-100 p-5 rounded-xl shadow-lg">
+    <img src="spotsimg/moa.jpg" alt="SM Mall of Asia" class="w-full h-48 object-cover rounded-t-xl">
+    <h4 class="text-xl font-bold text-gray-800 mt-4">🛍️ SM Mall of Asia (MOA)</h4>
+    <p class="text-gray-700 text-sm mb-2">One of the largest malls in Asia, offering shopping, dining, seaside views, and family attractions.</p>
+    <p class="text-yellow-500 text-sm mb-4">★★★★☆ (4.6)</p>
+    <div class="bg-yellow-50 text-yellow-800 text-sm p-3 rounded-lg mt-3 border border-yellow-200">
+      📝 <strong>Local Tip:</strong> Time your visit around sunset for a relaxing stroll along the baywalk with street performers and snacks.
+    </div>
+    <blockquote class="italic text-sm text-gray-600 mt-3 border-l-4 pl-3 border-gray-300">
+      “So much to do in one place — shopping, skating, rides, and food by the sea!” – Jamie R.
+    </blockquote>
+  </div>
+  
+  
+      </div>
+    </div>
+  </section>
+  
+
+
+        <!-- Individual Maps Section -->
+<section class="py-16 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-bold text-center mb-10 text-gray-800">Tourist Spot Locations</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+  
+        <!-- Intramuros -->
+        <div>
+          <h4 class="text-xl font-semibold text-gray-700 mb-2">🏰 Intramuros</h4>
+          <iframe 
+            src="https://www.google.com/maps/d/u/3/embed?mid=1jH2-bjUaNvjS-ep7ptC3U-ruphb-c8U&ehbc=2E312F"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+  
+        <!-- Rizal Park -->
+        <div>
+          <h4 class="text-xl font-semibold text-gray-700 mb-2">🌳 Rizal Park</h4>
+          <iframe 
+            src="https://www.google.com/maps/d/u/3/embed?mid=1hfUEsDdoOCnfY7tQut972Txm3YDJheQ&ehbc=2E312F"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+  
+        <!-- Manila Ocean Park -->
+        <div>
+          <h4 class="text-xl font-semibold text-gray-700 mb-2">🐠 Manila Ocean Park</h4>
+          <iframe 
+            src="https://www.google.com/maps/d/u/3/embed?mid=1Fe8lBmvCa2asiN14fUH5Q6fIERTNqMg&ehbc=2E312F"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+  
+        <!-- San Agustin Church -->
+        <div>
+          <h4 class="text-xl font-semibold text-gray-700 mb-2">⛪ San Agustin Church</h4>
+          <iframe 
+            src="https://www.google.com/maps/d/u/3/embed?mid=1uwwvagzgsIhBMUVUU8xtJ-ymXw4_AEU&ehbc=2E312F"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+  
+        <!-- Cultural Center of the Philippines -->
+        <div>
+          <h4 class="text-xl font-semibold text-gray-700 mb-2">🎭 Cultural Center of the Philippines</h4>
+          <iframe 
+            src="https://www.google.com/maps/d/u/3/embed?mid=1r8LG2byjpVZE36iuwmPgasT8t4mvgGQ&ehbc=2E312F"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+  
+        <!-- National Museum of Fine Arts -->
+        <div>
+          <h4 class="text-xl font-semibold text-gray-700 mb-2">🖼️ National Museum of Fine Arts</h4>
+          <iframe 
+            src="https://www.google.com/maps/d/u/3/embed?mid=1NvBp3QGUIVsH29HTP91cJICsVTU0IV0&ehbc=2E312F"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+
+    <!-- Binondo -->
+    <div>
+        <h4 class="text-xl font-semibold text-gray-700 mb-2">🍜 Binondo</h4>
+        <iframe 
+          src="https://www.google.com/maps/d/u/3/embed?mid=1Zt6VV-W5EOvBd52crxQHE4C62Q0-ofQ&ehbc=2E312F"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+
+      <!-- Paco-->
+    <div>
+        <h4 class="text-xl font-semibold text-gray-700 mb-2">🌸 Paco Park</h4>
+        <iframe 
+          src="https://www.google.com/maps/d/u/3/embed?mid=1y-9YqcScywqJ4nA3mdWp98u0OZaRkJw&ehbc=2E312F"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>  
+
+      <!-- Quiapo -->
+      <div>
+        <h4 class="text-xl font-semibold text-gray-700 mb-2">🙏 Quiapo Church</h4>
+        <iframe 
+          src="https://www.google.com/maps/d/u/3/embed?mid=1S5qoQ7xnYfcQ1L5sXkJltHRDuudrb4E&ehbc=2E312F"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div> 
+
+      <!-- Star -->
+      <div>
+        <h4 class="text-xl font-semibold text-gray-700 mb-2">🎡 Star City</h4>
+        <iframe 
+          src="https://www.google.com/maps/d/u/3/embed?mid=1RFCmofOCqPjSjTbQAaJbM4EK0PYZw04&ehbc=2E312F"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div> 
+
+      <!-- Forest -->
+      <div>
+        <h4 class="text-xl font-semibold text-gray-700 mb-2">🌿 Arroceros Forest Park</h4>
+        <iframe 
+          src="https://www.google.com/maps/d/u/3/embed?mid=1VOLYnYVPXgTrVQALYRzeZCTvUVG7Luw&ehbc=2E312F "
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div> 
+
+      <!-- MOA -->
+      <div>
+        <h4 class="text-xl font-semibold text-gray-700 mb-2">🛍️ SM Mall of Asia (MOA)</h4>
+        <iframe 
+          src="https://www.google.com/maps/d/u/3/embed?mid=1tpHL7gJ2cYTIqBcPNreMOQhYd8VpGW8&ehbc=2E312F"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div> 
+  
+      </div>
+    </div>
+  </section>
+  
+          
+        </div>
+      </div>
+    </section>
+
+  
+ <!-- Footer -->
+<footer class="bg-white border-t mt-10 py-10 text-center text-sm text-gray-600">
+  <p class="mb-2">&copy; 2025 <span class="font-semibold">MY MANILA</span>. Built with love by <span class="text-blue-600 font-medium">Jessica Mae Palma</span> for locals.</p>
+  <p class="text-xs">Rediscover. Explore. Experience Manila like never before.</p>
+</footer>
+  </body>
+</html>

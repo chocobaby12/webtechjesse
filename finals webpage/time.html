@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Time/Day - MY MANILA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/Manila.ico" type="image/x-icon">
+    
+  </head>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+
+   <!-- Header/Navbar -->
+   <header class="bg-white px-4 py-3 shadow-sm">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between">
+  <!-- Navbar Logo and Title -->
+<a href="#" class="flex items-center justify-center sm:justify-start space-x-2">
+<img src="images/Manila.ico" alt="MY MANILA Logo" class="h-8 w-8 object-contain">
+<h1 class="text-2xl sm:text-2xl font-bold text-black whitespace-nowrap">MY MANILA</h1>
+</a>
+  <nav>
+    <ul class="mt-2 sm:mt-0 flex flex-col sm:flex-row items-center sm:space-x-6 space-y-2 sm:space-y-0 text-sm sm:text-base font-bold font-medium text-black">
+      <li><a href="index.html" class="hover:text-blue-600 transition">Home</a></li>
+      <li><a href="spots.html" class="hover:text-blue-600 transition">Tourist Spots</a></li>
+      <li><a href="time.html" class="hover:text-blue-600">Best Time/Day</a></li>
+        <li><a href="hidden.html" class="hover:text-blue-600">Hidden Gems</a></li>
+      <li><a href="budget.html" class="hover:text-blue-600 transition">Budget Guide</a></li>
+      <li><a href="contact.html" class="hover:text-blue-600 transition">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+</header>
+
+    <!-- Hero + Content Section -->
+    <section class="pt-36 pb-16 px-6 text-center relative bg-gradient-to-b from-yellow-600 to-red-600">
+      <div class="absolute inset-0 bg-gradient-to-b from-blue-800/70 via-red-700/60 to-green-600/40"></div>
+      <div class="relative z-10 max-w-4xl mx-auto text-white">
+
+        <h2 class="text-5xl font-extrabold mb-6 drop-shadow-xl">When's the Best Time to Explore?</h2>
+        <p class="text-lg sm:text-xl mb-10 italic">Plan your trip around the perfect weather and local festivities.</p>
+
+        <!-- Static Weather Widget with Icons -->
+<div class="bg-white bg-opacity-20 p-4 rounded-xl shadow-md backdrop-blur-md mt-10 text-white max-w-sm mx-auto">
+  <h4 class="text-lg font-bold mb-4">🌤️ Today's Weather in Manila</h4>
+  
+  <!-- Weather Main Info -->
+  <div class="flex items-center justify-between mb-4">
+    <!-- Icon -->
+    <div class="text-6xl">🌤️</div>
+    <!-- Temperature -->
+    <div class="text-right">
+      <p class="text-3xl font-bold">32°C</p>
+      <p class="text-sm">High: 34°C | Low: 27°C</p>
+      <p class="text-sm">Feels like: 36°C</p>
+    </div>
+  </div>
+
+  <!-- Extra Weather Details -->
+  <div class="space-y-2 text-sm text-white/90">
+    <div class="flex items-center">
+      <span class="mr-2 text-lg">💧</span>
+      <p>Humidity: 65%</p>
+    </div>
+    <div class="flex items-center">
+      <span class="mr-2 text-lg">🌬️</span>
+      <p>Wind: 12 km/h</p>
+    </div>
+    <div class="flex items-center">
+      <span class="mr-2 text-lg">⛅</span>
+      <p>Condition: Partly Cloudy</p>
+    </div>
+  </div>
+</div>
+
+
+        <!-- Seasonal Infographic Section -->
+<section class="mt-12 mb-16">
+  <h3 class="text-3xl font-semibold mb-6 text-center">Best Time to Visit Manila: A Quick Guide</h3>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    
+    <!-- Dry Season Card -->
+    <div class="bg-gradient-to-r from-yellow-600 to-orange-500 p-6 rounded-xl shadow-lg text-white text-center">
+      <h4 class="text-xl font-semibold mb-2">Dry Season</h4>
+      <p class="text-sm">Dec - May: Ideal for outdoor activities, city walks, and local festivals.</p>
+    </div>
+
+    <!-- Rainy Season Card -->
+    <div class="bg-gradient-to-r from-blue-500 to-teal-500 p-6 rounded-xl shadow-lg text-white text-center">
+      <h4 class="text-xl font-semibold mb-2">Rainy Season</h4>
+      <p class="text-sm">Jun - Nov: Frequent rain and typhoons. Great for indoor activities like museums.</p>
+    </div>
+
+    <!-- Best Festival Time Card -->
+    <div class="bg-gradient-to-r from-purple-600 to-pink-500 p-6 rounded-xl shadow-lg text-white text-center">
+      <h4 class="text-xl font-semibold mb-2">Best Festival Time</h4>
+      <p class="text-sm">Jan, Feb, Jun, Dec: Experience Manila's vibrant cultural festivals!</p>
+    </div>
+
+  </div>
+</section>
+
+
+        <!-- Packing and Travel Tips Section -->
+        <section class="mt-12">
+          <h3 class="text-3xl font-semibold mb-6 text-center">Packing & Travel Tips</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <div class="bg-white bg-opacity-20 p-6 rounded-xl shadow-lg backdrop-blur-md">
+              <h4 class="text-2xl font-semibold mb-3">Dry Season (Dec – May)</h4>
+              <ul class="list-disc list-inside text-sm">
+                <li>Pack lightweight clothes and sunscreen.</li>
+                <li>Comfortable walking shoes for sightseeing.</li>
+                <li>Don’t forget a hat or sunglasses for sunny days.</li>
+              </ul>
+            </div>
+
+            <div class="bg-white bg-opacity-20 p-6 rounded-xl shadow-lg backdrop-blur-md">
+              <h4 class="text-2xl font-semibold mb-3">Rainy Season (Jun – Nov)</h4>
+              <ul class="list-disc list-inside text-sm">
+                <li>Carry an umbrella and a raincoat.</li>
+                <li>Wear waterproof shoes or sandals.</li>
+                <li>Bring a waterproof phone case for your electronics.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Local Events Calendar Section -->
+<section class="mt-12 mb-12">
+  <h3 class="text-3xl font-semibold mb-6 text-center">Upcoming Festivals & Events</h3>
+  <div class="bg-white bg-opacity-20 p-6 rounded-xl shadow-lg backdrop-blur-md">
+    <h4 class="text-2xl font-semibold mb-3">Annual Events in Manila</h4>
+    <ul class="list-disc list-inside text-sm">
+      <li><strong>January:</strong> Feast of the Black Nazarene (Quiapo)</li>
+      <li><strong>February:</strong> Chinese New Year in Binondo</li>
+      <li><strong>June:</strong> Independence Day Celebration at Rizal Park</li>
+      <li><strong>December:</strong> Christmas Lights and Parols Festival</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Weather Section -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left mb-12">
+  <div class="bg-white bg-opacity-20 p-6 rounded-xl shadow-lg backdrop-blur-md">
+    <div class="flex items-center mb-3">
+      <h3 class="text-2xl font-semibold">🌞 Dry Season (Dec – May)</h3>
+    </div>
+    <p class="text-sm">This is the best time to walk around the city comfortably, visit historical spots, and join local events without worrying about rain.</p>
+  </div>
+
+  <div class="bg-white bg-opacity-20 p-6 rounded-xl shadow-lg backdrop-blur-md">
+    <div class="flex items-center mb-3">
+      <h3 class="text-2xl font-semibold">🌧️ Rainy Season (Jun – Nov)</h3>
+    </div>
+    <p class="text-sm">Frequent rains and potential typhoons. Best to plan indoor visits like museums and galleries. Bring an umbrella!</p>
+  </div>
+</div>
+      </div>
+    </section>
+
+ <!-- Footer -->
+<footer class="bg-white border-t mt-10 py-10 text-center text-sm text-gray-600">
+  <p class="mb-2">&copy; 2025 <span class="font-semibold">MY MANILA</span>. Built with love by <span class="text-blue-600 font-medium">Jessica Mae Palma</span> for locals.</p>
+  <p class="text-xs">Rediscover. Explore. Experience Manila like never before.</p>
+</footer>
+
+</body>
+</html>
+
+   
